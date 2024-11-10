@@ -118,6 +118,7 @@ __3. Application deployment__
 
 ![image](https://github.com/user-attachments/assets/c995b9a1-6c22-4e76-ac7e-13db3e26a3a3)
 
+
 Ⅱ) 데이터 증강 후 학습
 * 과적합의 원인을 정상 데이터가 골절 데이터에 비해 너무 많아, 전부 정상으로 인식하는 경우 accuracy가 고정될 수 있다고 생각하여 데이터 증강을 진행하였습니다.
 * ImageDataGenerator를 사용하여 각 데이터에 랜덤으로 회전, 좌우 이동, 상하 이동, 전단 변환, 확대/축소, 수평 반전 등을 통해 데이터를 증강해주었습니다. (기존 : 정상(3366), 골절(717) -> 증강 : 정상(3366), 골절(3316))
@@ -125,11 +126,14 @@ __3. Application deployment__
 ![image](https://github.com/user-attachments/assets/2cd16e55-59a4-4c0e-a2a7-2716bb85172d)
 ![image](https://github.com/user-attachments/assets/211fac26-a9b8-4e31-9a1b-050d5c2a402d)
 
+
 Ⅲ) Augmentation한 데이터를 VGG16 + Dropout + Early Stopping 모델로 학습
 * 증강 후 학습한 결과를 보면 loss가 증가하다가 급증하는 것을 확인할 수 있습니다. 그렇기 때문에 early stopping 하여 학습을 종료시켜 주었습니다.
 * 과적합 방지를 위해 Dropout 진행
 
 ![image](https://github.com/user-attachments/assets/23d1c3e6-a2cd-4aa2-bf54-6d12cda420ad)
 
+
 Ⅳ) Classification 결과 확인
+
 ![image](https://github.com/user-attachments/assets/57d60f9a-a772-4cdb-82f3-ef5933019747)
