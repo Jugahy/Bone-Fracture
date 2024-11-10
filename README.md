@@ -8,8 +8,8 @@ Developed a deep learning model for bone fracture detection as a project intern 
 1. [Overview](#1️⃣-overview)
 2. [Role](#2️⃣-role)
 3. [Skills & Process](#3️⃣-skills)
-4. [References](#4️⃣-process)
-5. [Structure](#5️⃣-structure)
+4. [Process](#4️⃣-process)
+5. [Reference](#5️⃣-reference)
 
 
 ## 1️⃣ Overview
@@ -137,3 +137,11 @@ __3. Application deployment__
 Ⅳ) Classification 결과 확인
 
 ![image](https://github.com/user-attachments/assets/57d60f9a-a772-4cdb-82f3-ef5933019747)
+
+
+
+
+## 5️⃣ Reference
+* https://www.nature.com/articles/s41597-023-02432-4
+* https://etasr.com/index.php/ETASR/article/view/8050
+* https://arxiv.org/abs/1409.1556
