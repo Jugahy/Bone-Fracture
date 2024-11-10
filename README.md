@@ -7,8 +7,8 @@ Developed a deep learning model for bone fracture detection as a project intern 
 
 1. [Overview](#1️⃣-overview)
 2. [Role](#2️⃣-role)
-3. [Skills & Process](#3️⃣-skills--process)
-4. [References](#4️⃣-references)
+3. [Skills & Process](#3️⃣-skills)
+4. [References](#4️⃣-process)
 5. [Structure](#5️⃣-structure)
 
 
@@ -73,3 +73,35 @@ __3. Application deployment__
 ![image](https://github.com/user-attachments/assets/31886bbf-c11e-4bef-a879-935b705356d6)
 
 ### 4-2. Data Introduction [(1.데이터 소개.ipynb)](https://github.com/Jugahy/Bone-Fracture/blob/main/1.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%86%8C%EA%B0%9C.ipynb)
+
+* FracAlas 데이터 폴더 안에 dataset이라는 csv가 있습니다. dataset은 아래와 같이 구성되어 있습니다.
+    * 골절 부위
+      * hand : (ex : IMG0000019.jpg)
+      * leg : (ex : IMG0000092.jpg)
+      * hip : (ex : IMG0002180.jpg)
+      * shoulder : (ex : IMG0002302.jpg)
+      * mixed : 여러 부위 골절
+    * 특징
+      * hardware : 뼈 고정 금속 여부
+      * multiscan : X-ray, CT 스캔 등 여러 가지 스캔 방법을 사용하여 얻은 데이터
+      * fracture : 골절 여부
+      * fracture_count : 골절의 개수
+    * 촬영방법
+      * frontal : 정면 이미지
+      * lateral : 측면 이미지
+      * oblique : 사선 이미지
+
+  * 각 부위 별 정상, 골절 데이터 수 시각화 / 골절 수 분포
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0e1f5fae-88ff-4805-991d-cf670758469f" alt="각 부위 별 정상, 골절 데이터 수 시각화" width="45%" />
+  <img src="https://github.com/user-attachments/assets/e161ae5a-824d-45a7-867f-4059dca9e96f" alt="골절 수 분포" width="45%" />
+</p>
+<br/>
+<br/>
+
+* Label 데이터를 불러와 골절 데이터에 overlab 해보았습니다. (box, polygon 두 형태로 제공)
+  
+![image](https://github.com/user-attachments/assets/7aa7b47d-1e7d-4f41-80e3-62d9904ed74a)
+![image](https://github.com/user-attachments/assets/2f990146-d178-4e2e-bb37-8524f326c131)
+![image](https://github.com/user-attachments/assets/270d2c3a-981f-4778-b697-50fb10add7d2)
+
