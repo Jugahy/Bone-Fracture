@@ -67,12 +67,12 @@ __3. Application deployment__
 
 ## 4️⃣ Process
 
-### 4-1. Data Selection ([1.데이터 선정.ipynb](https://github.com/Jugahy/Bone-Fracture/blob/main/0.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%84%A0%EC%A0%95.ipynb))
+### 4-1. Data Selection ([1. 데이터 선정.ipynb](https://github.com/Jugahy/Bone-Fracture/blob/main/0.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%84%A0%EC%A0%95.ipynb))
 * [FracAtlas : A Dataset for Fracture Classification, Localization and Segmentation of Musculoskeletal Radiographs](https://github.com/Jugahy/AI-Paper/blob/main/Bone_Fracture/FracAtlas%20%3A%20A%20Dataset%20for%20Fracture%20Classification%2C%20Localization%20and%20Segmentation%20of%20Musculoskeletal%20Radiographs/(Review)%20FracAtlas%20%3A%20A%20Dataset%20for%20Fracture%20Classification%2C%20Localization%20and%20Segmentation%20of%20Musculoskeletal%20Radiographs.ipynb) 논문 참고하여 FracAtlas 데이터 선정하게 되었습니다.
 * 여러 부위의 골절 데이터와 Object Detection을 위한 라벨링이 되어있기 때문에 FracAtlas 데이터를 사용하기 가장 적합합니다.
 ![image](https://github.com/user-attachments/assets/31886bbf-c11e-4bef-a879-935b705356d6)
 
-### 4-2. Data Introduction ([2.데이터 소개.ipynb](https://github.com/Jugahy/Bone-Fracture/blob/main/1.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%86%8C%EA%B0%9C.ipynb))
+### 4-2. Data Introduction ([2. 데이터 소개.ipynb](https://github.com/Jugahy/Bone-Fracture/blob/main/1.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%86%8C%EA%B0%9C.ipynb))
 
 * FracAlas 데이터 폴더 안에 dataset이라는 csv가 있습니다. dataset은 아래와 같이 구성되어 있습니다.
     * 골절 부위
@@ -105,7 +105,7 @@ __3. Application deployment__
 ![image](https://github.com/user-attachments/assets/2f990146-d178-4e2e-bb37-8524f326c131)
 ![image](https://github.com/user-attachments/assets/270d2c3a-981f-4778-b697-50fb10add7d2)
 
-### 4-3. Data Preprocessing ([3.데이터 전처리.ipynb](https://github.com/Jugahy/Bone-Fracture/blob/main/3.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%B2%98%EB%A6%AC.ipynb))
+### 4-3. Data Preprocessing ([3. 데이터 전처리.ipynb](https://github.com/Jugahy/Bone-Fracture/blob/main/3.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%B2%98%EB%A6%AC.ipynb))
 
 * 데이터를 통해 모델을 학습하기 위해서는 기본이 되는 모델에 데이터를 학습한 후 모델의 성능, loss, accuracy 등을 보고 모델이 데이터를 통해 학습하고 있는지 과적합은 일어나지 않는지 등을 관찰하며 모델 학습 과정에서 발생하는 문제들을 데이터 전처리를 통해 없애주는 과정을 거쳐야 합니다.
 * 그렇기에 최신 [Bone Fracture Classification 논문](https://etasr.com/index.php/ETASR/article/view/8050)을 조사해보니 VGG-16을 사용했을 때 성능이 괜찮게 나오는 것을 알게되었고, 추가적으로 위 논문에서 Grid search를 통해 적절한 Hyperparameter를 찾아 놓아서 저희의 모델에도 적용했습니다.
