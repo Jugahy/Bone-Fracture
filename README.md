@@ -44,8 +44,9 @@ WE-Meet을 통해 전주 효사랑 가족 병원 방사선실에서 프로젝트
 * Collecting Fracture Data from Multiple Hospitals
 * FracAtlas Data Preprocessing, Segmentation Learning
 
-
-
+### Bea JinWoo
+* FCN & U-Net Papers Review
+  
 ## 3️⃣ Skills 
 
 ### Project skills 
