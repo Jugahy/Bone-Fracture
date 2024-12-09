@@ -2,7 +2,6 @@
 전주 효사랑 가족 병원 방사선실에서 프로젝트 인턴으로 뼈 골절 감지 딥러닝 모델 개발<br/>
 Developed a deep learning model for bone fracture detection as a project intern in the radiation room of Jeonju Hyosarang Family Hospital
 
-
 ### Table of contents 
 
 1. [Overview](#1️⃣-overview)
@@ -39,6 +38,11 @@ WE-Meet을 통해 전주 효사랑 가족 병원 방사선실에서 프로젝트
 * AI Technical Papers Review and Implementation
 * Data from multiple hospitals, collecting published fracture data
 * FracAtlas data preprocessing, visualization
+
+### Joseph Cho
+* Segmentation Paper Review
+* Collecting Fracture Data from Multiple Hospitals
+* FracAtlas Data Preprocessing, Segmentation Learning
 
 
 
