@@ -41,6 +41,11 @@ WE-Meet을 통해 전주 효사랑 가족 병원 방사선실에서 프로젝트
 * Data from multiple hospitals, collecting published fracture data
 * FracAtlas data preprocessing, visualization
 
+### Joseph Cho
+* Segmentation Paper Review
+* Collecting Fracture Data from Multiple Hospitals
+* FracAtlas Data Preprocessing, Segmentation Learning
+
 
 
 ## 3️⃣ Skills 
