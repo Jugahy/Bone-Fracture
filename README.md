@@ -2,6 +2,7 @@
 전주 효사랑 가족 병원 방사선실에서 프로젝트 인턴으로 뼈 골절 감지 딥러닝 모델 개발<br/>
 Developed a deep learning model for bone fracture detection as a project intern in the radiation room of Jeonju Hyosarang Family Hospital
 
+나는 조요셉입니다.
 
 ### Table of contents 
 
