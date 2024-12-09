@@ -30,9 +30,9 @@ WE-Meet을 통해 전주 효사랑 가족 병원 방사선실에서 프로젝트
 
 
 ## 2️⃣ Role
-|<img src="https://github.com/user-attachments/assets/bef1a11a-d69d-440a-9ed5-7c8f39548c5a" width="150" height="150"/>|<img src="https://github.com/user-attachments/assets/57faea1f-1b95-4d72-b1c0-e2c31a773cde" width="150" height="150"/>|
-|:-:|:-:|
-|Jeong GangHyeon<br/>[@JUGAHY](https://github.com/JUGAHY)|Joseph Cho<br/>[@Joseph-Ai-py](https://github.com/Joseph-Ai-py)|
+|<img src="https://github.com/user-attachments/assets/bef1a11a-d69d-440a-9ed5-7c8f39548c5a" width="150" height="150"/>|<img src="https://github.com/user-attachments/assets/57faea1f-1b95-4d72-b1c0-e2c31a773cde" width="150" height="150"/>|<img src="https://github.com/user-attachments/assets/ed3f7507-48e8-4841-b989-64f186be4943" width="150" height="150"/>|
+|:-:|:-:|:-:|
+|Jeong GangHyeon<br/>[@JUGAHY](https://github.com/JUGAHY)|Joseph Cho<br/>[@Joseph-Ai-py](https://github.com/Joseph-Ai-py)|Bea JinWoo<br/>[@pig0712](https://github.com/pig0712)|
 
 ### Jeong GangHyeon
 * AI Technical Papers Review and Implementation
